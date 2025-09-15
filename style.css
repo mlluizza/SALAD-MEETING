@@ -1,0 +1,10 @@
+html {
+    font-family: 'Noto Sans JP', 'sans-serif'
+}
+
+.container {
+    width: 90%;
+    max-width: 1220px;
+    background-color: green;
+    margin: 0 auto
+}
