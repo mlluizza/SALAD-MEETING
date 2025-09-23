@@ -160,3 +160,48 @@ header {
     padding: 48px 0;
     border-bottom: solid 1px #D2ECBA;
 }
+
+.column-a {
+    background-image: url(../images/bottom1.avif);
+    background-position: center;
+    background-size: cover;
+    width: 24%;
+    height: 270px;
+    border-radius: 20px;
+}
+
+.column-b {
+    background-image: url(../images/bottom2.avif);
+    background-position: center;
+    background-size: cover;
+    width: 18%;
+    height: 270px;
+    border-radius: 20px;
+}
+
+.column-c {
+    background-image: url(../images/bottom3.avif);
+    background-position: center;
+    background-size: cover;
+    width: 24%;
+    height: 270px;
+    border-radius: 20px;
+}
+
+.column-d {
+    background-image: url(../images/bottom4.avif);
+    background-position: center;
+    background-size: cover;
+    width: 28%;
+    height: 270px;
+    border-radius: 20px;
+}
+
+footer {
+    text-align: center;
+    margin: 90px 0;
+}
+.copyright {
+    font-size: 12px;
+    margin-top: 40px;
+}
