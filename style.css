@@ -41,6 +41,15 @@ header {
     transition: .3s;
 }
 
+@media only screen and (max-width: 768px){
+    header .container {
+        justify-content: center;
+    }
+    .header_menu li {
+        margin: 20px 16px 0;
+    }
+}
+
 #hero {
     background-image: url(../images/hero.avif);
     background-position: center;
@@ -79,6 +88,14 @@ header {
     font-weight: 700;
     margin-bottom: 30px;
 }
+
+
+@media only screen and (max-width: 768px){
+    #hero {height: 460px;}
+    .hero_inner p {font-size: 15px;}
+    .hero_inner h1 {font-size: 17px;}
+}
+
 
 #concept {
     margin-bottom: 120px;
@@ -120,6 +137,21 @@ header {
     z-index: -1;
 }
 
+@media only screen and (max-width: 768px){
+    #concept h3 {
+        font-size: 24px;
+        line-height: 1.5;
+    }
+    .column-2 {
+        width: 100%;
+    }
+    .text {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+    .concept-img {margin-top: 30px;}
+}
+
 #service {
     margin-bottom: 120px;
 }
@@ -141,6 +173,20 @@ header {
     font-weight: 700;
     margin-bottom: 24px;
 }
+@media only screen and (max-width: 768px){
+
+    .column-40 {
+        width: 100%;
+        margin-bottom: 30px;
+
+    }
+    .column-55 {
+        width: 100%;
+    }
+    #service h3 {
+        font-size: 17px;
+    }
+}
 
 #company {
     margin-bottom: 120px;
@@ -159,6 +205,12 @@ header {
     width: 70%;
     padding: 48px 0;
     border-bottom: solid 1px #D2ECBA;
+}
+
+@media only screen and (max-width: 768px){
+    #company dl {
+        font-size: 13px;
+    }
 }
 
 .column-a {
@@ -195,6 +247,14 @@ header {
     width: 28%;
     height: 270px;
     border-radius: 20px;
+}
+
+@media only screen and (max-width: 768px){
+    .column-a, .column-b, .column-c, .column-d {
+        width: 48%;
+        height: 140px;
+        margin: 1%;
+    }
 }
 
 footer {
