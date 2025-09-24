@@ -32,4 +32,4 @@
  salad-meeting/
 ├── images/           # Images used in the project
 ├── index.html/       # Main HTML page
-├── style.css/        # Custom styles for the project
+└── style.css/        # Custom styles for the project
