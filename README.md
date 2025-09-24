@@ -1,5 +1,7 @@
 # SALAD MEETING
 
+### 1️⃣ Project Overview
+
 ### 📖 Project Overview
 
 -**Objective:**
@@ -21,3 +23,13 @@
   - Grid: Used to organize elements efficiently on the page.
   - Google Fonts: To import custom fonts (like "Poppins" and "Noto Sans JP").
   - Modular CSS (style.css): Additional stylesheet for further page customization.
+
+### 2️⃣ Project Structure
+
+**📂 Folder Structure:**
+
+``` bash 
+ salad-meeting/
+├── images/           # Images used in the project
+├── index.html/       # Main HTML page
+├── style.css/        # Custom styles for the project
